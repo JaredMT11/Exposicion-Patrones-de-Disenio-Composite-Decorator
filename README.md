@@ -11,21 +11,27 @@ Los componentes implementados son:
 
 Ejecución
 
-Antes de ejecutar el programa, es necesario ubicarse desde la terminal en la carpeta del proyecto. Si la terminal no se encuentra dentro de la carpeta correcta, utilizar el comando:
+Antes de ejecutar el programa, es necesario ubicarse desde la terminal en la carpeta del proyecto.
+Si la terminal no se encuentra dentro de la carpeta correcta, utilizar el comando:
 
 •	cd ruta_de_descarga\Exposicion-Patrones-de-Disenio-Composite-Decorator-main\EjercicioComposite
 
 Después de ubicarse en la carpeta, ejecutar:
+
 •	EjercicioComposite.py
 
 Ejemplo de salida
 
-Calculando el peso total del cargamento... El peso total de la 'Caja Principal' es: 12.5 kg.Explicación
+Calculando el peso total del cargamento... El peso total de la 'Caja Principal' es: 12.5 kg.
+
+Explicación
+
 Sin el patrón Composite, el sistema tendría que verificar constantemente si lo que está procesando es un solo paquete o una caja con más objetos dentro, lo que llenaría el código de condicionales (if/else).
 
 Con Composite, tratamos tanto a los objetos simples como a las agrupaciones bajo una misma interfaz. Esto permite crear estructuras tipo "árbol" tan profundas como sea necesario, haciendo que el sistema sea escalable y fácil de mantener.
 
 Autor
+
 Proyecto realizado por Jesús Jared Morales Tirado
 
 ===================================================================================================================================================================
@@ -35,7 +41,8 @@ Patrón Decorator
 Descripción
 
 Esta parte del proyecto corresponde a la implementación del patrón de diseño Decorator en Python.
-El programa permite agregar funcionalidades adicionales a una notificación de manera dinámica, sin modificar directamente la clase principal. En este caso, una notificación simple puede marcarse como urgente y también incluir una firma.
+El programa permite agregar funcionalidades adicionales a una notificación de manera dinámica, sin modificar directamente la clase principal.
+En este caso, una notificación simple puede marcarse como urgente y también incluir una firma.
 
 Los decoradores implementados son:
 
@@ -59,4 +66,5 @@ Sin el patrón Decorator sería necesario crear múltiples combinaciones de clas
 Con Decorator es posible agregar funcionalidades dinámicamente sin modificar la clase original, haciendo el sistema más flexible y reutilizable.
 
 Autor
+
 Proyecto realizado por Ignacio Calixto León
